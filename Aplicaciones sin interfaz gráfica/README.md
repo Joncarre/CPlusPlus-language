@@ -1,3 +1,3 @@
-** ¿Qué proyectos hay? **
+**¿Qué proyectos hay?**
 
 blablabla
