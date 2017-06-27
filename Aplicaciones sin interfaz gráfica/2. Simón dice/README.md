@@ -4,9 +4,11 @@
 ==============
 ----------
 
-**Descripción**
+**Introducción**
 
 Simón dice consiste en reproducir una secuencia de colores que son generados por una máquina de forma aleatoria. Una vez emitida la secuencia original, el usuario debe repetir la misma secuecia pulsado los botones (colores) correspondientes. Si el usuario repite correctamente la secuencia, la máquina generará una nueva más larga (con un color más que la anterior). Este proceso se repite hasta que el usuario comete un fallo o se llega a la secuencia con el límite máximo de colores.
+
+**Descripción**
 
 Al comenzar se muestra un panel de bienvenida en el que el usuario deberá introducir su nombre.
 
