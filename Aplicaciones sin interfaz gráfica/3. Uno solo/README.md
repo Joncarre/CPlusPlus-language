@@ -12,11 +12,11 @@ En este solitario, se empieza con un tablero en modo rejilla con piezas colocada
 
 El programa implementará la dinámica del juego, y para dibujar el tablero utilizará caracteres con distintos colores de fondo para las fichas. La siguiente imagen muestra un tablero donde las celdas en negro son nulas (no forman parte del tablero "jugable"), las que están en verde apagado están vacías y las que estén en verde brillante son celdas con ficha. La celda que tiene el símbolo en blanco en el centro representa la meta.
 
-Imagen 1
+![enter image description here](https://github.com/Joncarre/CPlusPlus-language/blob/master/Aplicaciones%20sin%20interfaz%20gr%C3%A1fica/images/3_1.png)
 
 Como vemos, se nos muestra los movimiento que podemos realizar (contando con todas las fichas que tenemos disponibles).
 
 También se desea cargar y guardar un juego de una determinada partida. Esto se hace a través de un fichero .txt que deberá tener la siguiente estructura.
 
-Imagen 2
+![enter image description here](https://github.com/Joncarre/CPlusPlus-language/blob/master/Aplicaciones%20sin%20interfaz%20gr%C3%A1fica/images/3_2.png)
 
