@@ -15,4 +15,13 @@ Una partida puede terminar bien porque se acaba el juego, o bien porque un jugad
 
 **Descripción**
 
+El menú principal del sistema permite realizar dos opciones (mientras no se elija salir): iniciar sesión, para usuarios ya registrados, o registrarse. En ambos casos se pide un nombre de usuario y contraseña.
+
+- Acceder a mi cuenta: en esta opción se comprueba que el usuario exista en la lista de usuarios del sistema y que la contraseña sea correcta. Si una de estas dos condiciones no se cumple, se muestra un error y el menú principal aparece de nuevo.
+
+- Registrarse: se comprueba si el usuario que se quiere registrar ya existe en el sistema. Si el nuevo usuario ya existe se mostrará un error y se volverá al manú principal.
+
+- La opción "Salir" termina la ejecución de la aplicación.
+
+
 
