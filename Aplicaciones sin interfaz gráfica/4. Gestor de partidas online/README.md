@@ -17,7 +17,7 @@ Una partida puede terminar bien porque se acaba el juego, o bien porque un jugad
 
 El menú principal del sistema permite realizar dos opciones (mientras no se elija salir): iniciar sesión, para usuarios ya registrados, o registrarse. En ambos casos se pide un nombre de usuario y contraseña.
 
-Imagen 1
+![enter image description here](https://github.com/Joncarre/CPlusPlus-language/blob/master/Aplicaciones%20sin%20interfaz%20gr%C3%A1fica/images/4_1.png)
 
 - Acceder a mi cuenta: en esta opción se comprueba que el usuario exista en la lista de usuarios del sistema y que la contraseña sea correcta. Si una de estas dos condiciones no se cumple, se muestra un error y el menú principal aparece de nuevo.
 
@@ -27,7 +27,7 @@ Imagen 1
 
 Una vez que se ha iniciado sesión, el menú muestra las partidas en curso del usuario de la sesión ordenadas por fecha de actualización, numeradas y con una marca que indica si tiene el turno.
 
-Imagen 2
+![enter image description here](https://github.com/Joncarre/CPlusPlus-language/blob/master/Aplicaciones%20sin%20interfaz%20gr%C3%A1fica/images/4_2.png)
 
 - Ver partida: solicita al usuario el número de la partida a mostrar (se comprueba si el usuario ha introducido bien dicho número).
 
@@ -39,7 +39,7 @@ Imagen 2
 
 Las partidas de Conecta4 tienen el siguiente aspecto:
 
-Imagen 3
+![enter image description here](https://github.com/Joncarre/CPlusPlus-language/blob/master/Aplicaciones%20sin%20interfaz%20gr%C3%A1fica/images/4_3.png)
 
 Donde las opciones son claras. Cabe destacar que, obviamente, el usuario sólo puede Jugar cuando es su turno. Y si el usuario abandona, se enviará un mensaje a su adversario informando de que ha ganado la partida por abandono del rival.
 
