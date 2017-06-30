@@ -8,7 +8,7 @@ Susana cuando va a la tienda de jardinerıa prefiere comprar flores, ası que qu
 
 **Entrada**
 
-La entrada consta de una serie de casos de prueba. Cada caso comienza con una l ́ınea con el numero N de agujeros en la manguera (1 <= N <= 100.000) y la longitud L de los parches (1 <= L <= 1.000). A continuacion aparece una lınea con N enteros que representan las posiciones donde se encuentran los agujeros (numeros enteros entre 1 y 10^9), medidos desde el comienzo de la manguera (punto 0) y dados en orden creciente desde ese comienzo.
+La entrada consta de una serie de casos de prueba. Cada caso comienza con una lınea con el numero N de agujeros en la manguera (1 <= N <= 100.000) y la longitud L de los parches (1 <= L <= 1.000). A continuacion aparece una lınea con N enteros que representan las posiciones donde se encuentran los agujeros (numeros enteros entre 1 y 10^9), medidos desde el comienzo de la manguera (punto 0) y dados en orden creciente desde ese comienzo.
 
 **Salida**
 
