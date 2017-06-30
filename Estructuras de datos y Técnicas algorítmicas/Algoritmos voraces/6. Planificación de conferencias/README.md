@@ -4,7 +4,7 @@ La Universidad Imponente tiene que planificar un evento cultural que consiste en
 
 **Entrada**
 
-La entrada consta de una serie de casos de prueba. Cada uno comienza con una l ́ınea con el numero N de conferencias (1 <= N <= 250.000). A continuacion aparecen N lıneas, cada una con dos numeros que representan la hora de comienzo y de finalizacion de una de las conferencia (la hora de comienzo siempre es estrictamente menor que la de finalizacion). Estos tiempos son numeros enteros entre 0 y 10^9. La entrada terminara con un caso sin conferencias, que no debe procesarse.
+La entrada consta de una serie de casos de prueba. Cada uno comienza con una lınea con el numero N de conferencias (1 <= N <= 250.000). A continuacion aparecen N lıneas, cada una con dos numeros que representan la hora de comienzo y de finalizacion de una de las conferencia (la hora de comienzo siempre es estrictamente menor que la de finalizacion). Estos tiempos son numeros enteros entre 0 y 10^9. La entrada terminara con un caso sin conferencias, que no debe procesarse.
 
 **Salida**
 
