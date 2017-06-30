@@ -1,6 +1,6 @@
 # Agujeros en la manguera
 
-Este verano Susana tiene en el jard ́ın una plaga de hormigas que la tienen tomada con la manguera para regar. Tanto es así que han conseguido ya hacer unos cuantos agujeros para obtener agua y refrescarse.
+Este verano Susana tiene en el jardın una plaga de hormigas que la tienen tomada con la manguera para regar. Tanto es así que han conseguido ya hacer unos cuantos agujeros para obtener agua y refrescarse.
 
 Después de encargarse de las hormigas, Susana ha decidido arreglar la manguera tapando los agujeros. Para ello tiene que comprar unos parches rectangulares que se colocan a lo largo sobre la manguera y cuyo ancho la envuelve completamente. Un parche puede tapar varios agujeros (si un parche tiene una longitud L puede llegar a tapar agujeros que estén separados entre sí hasta esa distancia) y pueden solaparse.
 
