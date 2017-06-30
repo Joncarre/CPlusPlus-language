@@ -10,7 +10,7 @@ Lo que queremos es simular la formacion de una de estas bandadas de pajaros que 
 
 **Entrada**
 
-La entrada estara compuesta por una serie de casos de prueba, cada uno con la informacion de creacion de una bandada de pajaros. Cada caso consta de dos lıneas: la primera contiene la edad del primer pajaro que echa a volar seguido del numero de parejas que se iran uniendo despu ́es (al menos una y hasta 100.000 parejas); en la lınea siguiente aparecen las edades de cada pareja. Se garantiza que las edades de cada uno de los pajaros que entran en la bandada son distintas. Para eso  ́éstas vienen expresadas en segundos, y nunca sera un numero mayor a 100.000.000. La entrada termina con una lınea con dos ceros.
+La entrada estara compuesta por una serie de casos de prueba, cada uno con la informacion de creacion de una bandada de pajaros. Cada caso consta de dos lıneas: la primera contiene la edad del primer pajaro que echa a volar seguido del numero de parejas que se iran uniendo despues (al menos una y hasta 100.000 parejas); en la lınea siguiente aparecen las edades de cada pareja. Se garantiza que las edades de cada uno de los pajaros que entran en la bandada son distintas. Para eso éstas vienen expresadas en segundos, y nunca sera un numero mayor a 100.000.000. La entrada termina con una lınea con dos ceros.
 
 **Salida**
 
