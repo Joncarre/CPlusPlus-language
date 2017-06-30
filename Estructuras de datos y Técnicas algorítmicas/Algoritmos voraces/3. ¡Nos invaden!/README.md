@@ -12,7 +12,7 @@ La entrada consta de una serie de casos de prueba. Para cada caso, primero apare
 
 **Salida**
 
-Para cada caso de prueba debe escribirse una lınea con el numero m ́aximo de ciudades donde se puede garantizar la victoria.
+Para cada caso de prueba debe escribirse una lınea con el numero maximo de ciudades donde se puede garantizar la victoria.
 
 **Entrada de ejemplo**
 
