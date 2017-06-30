@@ -20,26 +20,26 @@ Para cada caso de prueba el programa debe escribir una lÄ±nea con el esfuerzo mÄ
 
 **Entrada de ejemplo**
 
-4
-5
-1 2 5
-2 3 2
-3 1 8
-1 4 2
-4 1 3
-1 3
-2 3 4
-4
-3
-1 3 2
-3 1 3
-3 4 5
-1 2
-2 3
+    4
+    5
+    1 2 5
+    2 3 2
+    3 1 8
+    1 4 2
+    4 1 3
+    1 3
+    2 3 4
+    4
+    3
+    1 3 2
+    3 1 3
+    3 4 5
+    1 2
+    2 3
 
 **Salida de ejemplo**
 
-35
-Imposible
+    35
+    Imposible
 
 **Autor del problema:** Alberto Verdejo.
