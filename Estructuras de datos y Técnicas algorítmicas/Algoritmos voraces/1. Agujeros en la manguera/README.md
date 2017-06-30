@@ -12,7 +12,7 @@ La entrada consta de una serie de casos de prueba. Cada caso comienza con una l 
 
 **Salida**
 
-Para cada caso de prueba se escribirá una l ́ınea con el mınimo numero de parches necesarios para cubrir todos los agujeros.
+Para cada caso de prueba se escribirá una lınea con el mınimo numero de parches necesarios para cubrir todos los agujeros.
 
 **Entrada de ejemplo**
 
