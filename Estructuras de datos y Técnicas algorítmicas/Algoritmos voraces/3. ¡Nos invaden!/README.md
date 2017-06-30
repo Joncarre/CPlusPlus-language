@@ -4,7 +4,7 @@ El enemigo, armado hasta los dientes con palos y piedras, ha desembarcado en bar
 
 Para contraatacar, el Grupo de Intervencion Rapida de Defensa dispone de tantos equipos listos para intervenir como ciudades invadidas. Cada uno de estos equipos consta de un numero de efectivos completamente equipados y entrenados. Para garantizar el  ́exito de la intervencion en una ciudad es necesario que contemos al menos con tantos efectivos de defensa como el enemigo.
 
-¿Puedes ayudarles a decidir la forma en la que repartir los equipos de defensa entre las ciudades invadidas de tal forma que se maximice el numero de  ́éxitos garantizados?
+¿Puedes ayudarles a decidir la forma en la que repartir los equipos de defensa entre las ciudades invadidas de tal forma que se maximice el numero de éxitos garantizados?
 
 **Entrada**
 
