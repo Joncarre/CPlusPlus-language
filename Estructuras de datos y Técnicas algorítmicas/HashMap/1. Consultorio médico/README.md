@@ -7,3 +7,9 @@ Se desea implementar un TAD (Tipo de Dato Abstracto) que simule el comportamient
 - siguientePaciente(m): el médico (m) consulta al paciente al que le toque en ese momento, que será el que tenga la fehca menor.
 - atiendePaciente(m): elimina el siguiente paciente de un médico (m).
 - listaPacientes(m, f): devuelve una lista de pacientes de un cierto médico (m) que tienen cita el día (f).
+
+**Ejemplo de entrada**
+
+
+
+**Ejemplo de salida**
