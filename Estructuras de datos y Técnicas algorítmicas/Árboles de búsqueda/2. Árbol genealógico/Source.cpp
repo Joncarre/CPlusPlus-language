@@ -3,22 +3,6 @@
 //  Copyright (c) Jonathan Carrero. All rights reserved.
 //
 
-/*
- ENTRADA DE EJEMPLO:
- 5
- 100 60 30 -1 -1 -1 58 -1 -1
- 100 60 30 -1 -1 -1 59 -1 -1
- 100 -1 -1
- 100 83 -1 -1 -1
- 100 82 -1 -1 -1
-
- SALIDA DE EJEMPLO:
- SI 3
- NO
- SI 1
- NO
- SI 2
-*/
 #include <iostream>
 #include <algorithm>
 #include "Arbin.h"
@@ -29,7 +13,7 @@ Arbin<int> leerArbol();
 bool genealogico(Arbin<int> &arbol, int &padre, int &generaciones);
 bool condicion(int hijo, int padre);
 // ------------------------------------------------------------------------------------------------------
-// Complejidad: O(N), donde N es el número de elementos leídos por la entrada
+// Complejidad: O(N), donde N es el nÃºmero de elementos leÃ­dos por la entrada
 Arbin<int> leerArbol(){
 	int numero;
 	cin >> numero;
@@ -43,7 +27,7 @@ Arbin<int> leerArbol(){
 	}
 }
 // ------------------------------------------------------------------------------------------------------
-// Complejidad: O(N), donde N es el número de nodos
+// Complejidad: O(N), donde N es el nÃºmero de nodos
 int altura(Arbin<int> &arbol){
 	if (arbol.esVacio())
 		return 0;
@@ -59,9 +43,9 @@ bool condicion(int hijo, int padre){
 		return false;
 }
 // ------------------------------------------------------------------------------------------------------
-// Complejidad: O(N), donde N es el número de nodos
+// Complejidad: O(N), donde N es el nÃºmero de nodos
 bool genealogico(Arbin<int> &arbol){
-	if (arbol.esVacio()) // Si es vacío...
+	if (arbol.esVacio()) // Si es vacÃ­o...
 		return true;
 	else if (arbol.hijoIz().esVacio() && arbol.hijoDr().esVacio()) // Si es hoja...
 		return true;
@@ -76,7 +60,7 @@ bool genealogico(Arbin<int> &arbol){
 	}
 }
 // ------------------------------------------------------------------------------------------------------
-// Complejidad: O(N), donde N es el número de nodos
+// Complejidad: O(N), donde N es el nÃºmero de nodos
 void resuelve(){
 	Arbin<int> arbol;
 	arbol = leerArbol();
