@@ -2,25 +2,6 @@
 //  Created by Jonathan Carrero.
 //  Copyright (c) Jonathan Carrero. All rights reserved.
 //
-
-/*
- ENTRADA DE EJEMPLO:
- 6
- 0 0 0 -1 -1 -1 -1 
- 0 0 -1 -1 0 -1 -1 
- 0 0 0 -1 -1 -1 0 -1 -1 
- 0 0 -1 -1 0 0 -1 -1 -1
- 0 0 -1 0 -1 -1 0 -1 -1
- 0 -1 0 -1 0 -1 -1
-
- SALIDA DE EJEMPLO:
- SI
- SI
- SI
- SI
- NO
- NO
-*/
 #include <iostream>
 #include <algorithm>
 #include "Arbin.h"
@@ -30,7 +11,7 @@ void resuelve();
 Arbin<int> leerArbol();
 int alturaMinima(Arbin<int> arbol);
 // ------------------------------------------------------------------------------------------------------
-// Complejidad: O(N), donde N es el número de elementos leídos por la entrada
+// Complejidad: O(N), donde N es el nÃºmero de elementos leÃ­dos por la entrada
 Arbin<int> leerArbol(){
 	int numero;
 	cin >> numero;
@@ -44,7 +25,7 @@ Arbin<int> leerArbol(){
 	}
 }
 // ------------------------------------------------------------------------------------------------------
-// Complejidad: O(N), donde N es el número de nodos que tiene el árbol
+// Complejidad: O(N), donde N es el nÃºmero de nodos que tiene el Ã¡rbol
 int alturaMinima(Arbin<int> arbol){
 	if (arbol.esVacio())
 		return 0;
