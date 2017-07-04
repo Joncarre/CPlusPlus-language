@@ -10,6 +10,50 @@ Se desea implementar un TAD (Tipo de Dato Abstracto) que simule el comportamient
 
 **Ejemplo de entrada**
 
-
+    12
+    nuevoMedico Hernandez
+    nuevoMedico Alvarez
+    pideConsulta Ana Alvarez 16 12 30
+    pideConsulta Antonio Alvarez 16 12 10
+    pideConsulta Alvaro Alvarez 17 10 00
+    pideConsulta Alba Alvarez 17 10 15
+    pideConsulta Anacleto Alvarez 17 10 55
+    listaPacientes Alvarez 16
+    siguientePaciente Alvarez
+    atiendeConsulta Alvarez
+    listaPacientes Alvarez 16
+    listaPacientes Alvarez 17
+    6
+    nuevoMedico Hernandez
+    pideConsulta Alvarez Ana 16 12 30
+    pideConsulta Helena Hernandez 17 10 00
+    atiendeConsulta Hernandez
+    listaPacientes Hernandez 17
+    atiendeConsulta Hernandez
 
 **Ejemplo de salida**
+
+    Doctor Alvarez dia 16
+    Antonio 12:10
+    Ana 12:30
+    ---
+    Siguiente Paciente doctor Alvarez
+    Antonio
+    ---
+    Doctor Alvarez dia 16
+    Ana 12:30
+    ---
+    Doctor Alvarez dia 17
+    Alvaro 10:00
+    Alba 10:15
+    Anacleto 10:55
+    ---
+    ------
+    Medico no existente
+    ---
+    Doctor Hernandez dia 17
+
+    ---
+    No hay pacientes
+    ---
+    ------
