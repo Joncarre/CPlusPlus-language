@@ -1,4 +1,4 @@
-# Título
+# Referencias cruzadas
 
 Dado un texto organizado por lıneas, el problema de las referencias cruzadas consiste en producir un listado de palabras ordenado alfabeticamente, donde cada palabra del texto va acompañada de una lista de referencias que contiene los numeros de todas las lıneas del texto en las que aparece la palabra en cuestion, ordenados de menor a mayor.
 
