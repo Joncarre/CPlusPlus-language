@@ -12,12 +12,12 @@ Es importante tener en cuenta que:
 
 **Entrada de ejemplo**
 
-      5
-      N N X . . N . . X N . . X . .
-      N N N . . N . . X N . . N . .
-      N X N . . X . . X X . . X . .
-      N X X . . X . . X X . . X . .
-      N X . . N . .
+    5
+    N N X . . N . . X N . . X . .
+    N N N . . N . . X N . . N . .
+    N X N . . X . . X X . . X . .
+    N X X . . X . . X X . . X . .
+    N X . . N . .
 
 **Salida de ejemplo**
 
