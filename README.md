@@ -1,7 +1,7 @@
 # C++
 
-Bienvenid@,
+Welcome,
 
-Aquí podrás encontrar todos los proyectos que he realizado utilizando el lenguaje de programación C++. Si tienes cualquier duda o sugerencia no dudes en contactar conmigo.
+Here you can find all the projects I have done using the C++ programming language. If you have any questions or suggestions please do not hesitate to contact me.
 
-¡Un saludo!
+Best regards!
