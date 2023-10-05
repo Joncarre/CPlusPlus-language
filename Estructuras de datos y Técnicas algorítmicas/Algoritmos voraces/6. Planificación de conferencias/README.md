@@ -1,16 +1,16 @@
-# Planificación de conferencias
+# Conference planning
 
-La Universidad Imponente tiene que planificar un evento cultural que consiste en una serie de conferencias. Para cada conferencia se conoce la hora de comienzo y la de finalizacion fijadas por los ponentes. Se ha pedido al Departamento de Informatica que planifique las conferencias distribuyendolas entre las distintas salas disponibles, de forma que, claro esta, no haya dos conferencias en una misma sala al mismo tiempo. El objetivo es minimizar el numero de salas utilizadas, para así causar el menor trastorno al resto de las actividades academicas.
+The Imposing University has to plan a cultural event consisting of a series of lectures. For each lecture we know the start and end times set by the speakers. The IT Department has been asked to plan the lectures by distributing them among the various rooms available, so that, of course, no two lectures are held in the same room at the same time. The aim is to minimize the number of rooms used, so as to cause as little disruption as possible to other academic activities.
 
-**Entrada**
+**Input**
 
-La entrada consta de una serie de casos de prueba. Cada uno comienza con una lınea con el numero N de conferencias (1 <= N <= 250.000). A continuacion aparecen N lıneas, cada una con dos numeros que representan la hora de comienzo y de finalizacion de una de las conferencia (la hora de comienzo siempre es estrictamente menor que la de finalizacion). Estos tiempos son numeros enteros entre 0 y 10^9. La entrada terminara con un caso sin conferencias, que no debe procesarse.
+The input consists of a series of test cases. Each one starts with a line with the number N of conferences (1 <= N <= 250,000). Next, N lines appear, each with two numbers representing the start and end time of one of the conferences (the start time is always strictly less than the end time). These times are integers between 0 and 10^9. The entry will end with a case without conferences, which should not be processed.
 
-**Salida**
+**Output**
 
-Para cada caso de prueba se escribira una lınea con el mınimo numero de salas necesarias para la planificacion de las conferencias, de forma que no se solapen conferencias dentro de una misma sala. Se puede suponer que la Universidad Imponente siempre contara con suficientes salas disponibles.
+For each test case a line will be written with the minimum number of rooms needed for the scheduling of the lectures, so that no lectures overlap within the same room. It can be assumed that the Imposing University will always have enough rooms available.
 
-**Entrada de ejemplo**
+**Input example**
 
     3
     1 5
@@ -25,10 +25,10 @@ Para cada caso de prueba se escribira una lınea con el mınimo numero de salas 
     3 7
     0
 
-**Salida de ejemplo**
+**Output example**
 
     2
     1
     3
 
-**Autor del problema:** Alberto Verdejo.
+**Author:** Alberto Verdejo.
