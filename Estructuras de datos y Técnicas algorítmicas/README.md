@@ -1,3 +1,3 @@
-**¿Qué proyectos hay?**
+**What projects are there?**
 
-Se presentan soluciones a problemas que tienen que ver con las estructuras de datos y técnicas algorítmicas en ingeniería de software. Los problemas están clasificados por temas según se muestran en los directorios.
+Solutions to problems having to do with data structures and algorithmic techniques in software engineering are presented. The problems are classified by topics as shown in the directories.
