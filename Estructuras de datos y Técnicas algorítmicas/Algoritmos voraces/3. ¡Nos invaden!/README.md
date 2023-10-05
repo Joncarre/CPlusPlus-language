@@ -1,20 +1,20 @@
-# ¡Nos invaden!
+# We are invaded!
 
-El enemigo, armado hasta los dientes con palos y piedras, ha desembarcado en barcas hinchables en las costas de nuestra patria invadiendo una serie de ciudades. Los servicios de “inteligencia” estan informados del numero de efectivos enemigos que se encuentran en cada una de las ciudades invadidas.
+The enemy, armed to the teeth with sticks and stones, has landed in inflatable boats on the coasts of our homeland, invading a number of cities. The "intelligence" services are informed of the number of enemy troops in each of the invaded cities.
 
-Para contraatacar, el Grupo de Intervencion Rapida de Defensa dispone de tantos equipos listos para intervenir como ciudades invadidas. Cada uno de estos equipos consta de un numero de efectivos completamente equipados y entrenados. Para garantizar el  ́exito de la intervencion en una ciudad es necesario que contemos al menos con tantos efectivos de defensa como el enemigo.
+To counterattack, the Rapid Defense Intervention Group has as many teams ready to intervene as there are invaded cities. Each of these teams consists of a number of fully equipped and trained troops. To ensure the success of the intervention in a city it is necessary to have at least as many defense troops as the enemy.
 
-¿Puedes ayudarles a decidir la forma en la que repartir los equipos de defensa entre las ciudades invadidas de tal forma que se maximice el numero de éxitos garantizados?
+Can you help them decide how to distribute the defense teams among the invaded cities in such a way as to maximize the number of guaranteed successes?
 
-**Entrada**
+**Input**
 
-La entrada consta de una serie de casos de prueba. Para cada caso, primero aparece el numero N (entre 1 y 100.000) de ciudades invadidas y equipos de defensa. A continuacion aparecen dos lıneas con N enteros cada una, la primera con los numeros de efectivos enemigos en cada una de las ciudades invadidas y la segunda con los numeros de efectivos de cada uno de los equipos de defensa (todos ellos numeros entre 1 y 1.000.000).
+The entry consists of a series of test cases. For each case, first appears the number N (between 1 and 100,000) of invaded cities and defense teams. Then there are two lines with N integers each, the first with the number of enemy troops in each of the invaded cities and the second with the number of troops in each of the defense teams (all of them numbers between 1 and 1,000,000).
 
-**Salida**
+**Output**
 
-Para cada caso de prueba debe escribirse una lınea con el numero maximo de ciudades donde se puede garantizar la victoria.
+For each test case a line should be written with the maximum number of cities where victory can be guaranteed.
 
-**Entrada de ejemplo**
+**Input example**
 
     4
     40 20 80 30
@@ -23,9 +23,9 @@ Para cada caso de prueba debe escribirse una lınea con el numero maximo de ciud
     40 50 60 70
     99 25 30 50
 
-**Salida de ejemplo**
+**Output example**
 
     3
     2
 
-**Autor del problema:** Alberto Verdejo.
+**Author:** Alberto Verdejo.
