@@ -1,20 +1,20 @@
-# Agujeros en la manguera
+# Holes in the hose
 
-Este verano Susana tiene en el jardın una plaga de hormigas que la tienen tomada con la manguera para regar. Tanto es así que han conseguido ya hacer unos cuantos agujeros para obtener agua y refrescarse.
+This summer Susana has a plague of ants in the garden that have taken her by storm with the watering hose. So much so that they have already managed to make a few holes to get water and cool off.
 
-Después de encargarse de las hormigas, Susana ha decidido arreglar la manguera tapando los agujeros. Para ello tiene que comprar unos parches rectangulares que se colocan a lo largo sobre la manguera y cuyo ancho la envuelve completamente. Un parche puede tapar varios agujeros (si un parche tiene una longitud L puede llegar a tapar agujeros que estén separados entre sí hasta esa distancia) y pueden solaparse.
+After taking care of the ants, Susana has decided to fix the hose by plugging the holes. To do this, she has to buy rectangular patches that are placed lengthwise over the hose and whose width completely encloses it. A patch can cover several holes (if a patch is of length L it can cover holes that are spaced up to that distance apart) and they can overlap.
 
-Susana cuando va a la tienda de jardinerıa prefiere comprar flores, ası que quiere gastarse lo mınimo posible comprando parches. ¿Puedes calcular cuantos parches como mınimo necesita Susana para cubrir todos los agujeros de la manguera?
+When Susana goes to the gardening store she prefers to buy flowers, so she wants to spend as little as possible buying patches. Can you calculate how many patches at least Susana needs to cover all the holes in the hose?
 
-**Entrada**
+**Input**
 
-La entrada consta de una serie de casos de prueba. Cada caso comienza con una lınea con el numero N de agujeros en la manguera (1 <= N <= 100.000) y la longitud L de los parches (1 <= L <= 1.000). A continuacion aparece una lınea con N enteros que representan las posiciones donde se encuentran los agujeros (numeros enteros entre 1 y 10^9), medidos desde el comienzo de la manguera (punto 0) y dados en orden creciente desde ese comienzo.
+The input consists of a series of test cases. Each case starts with a line with the number N of holes in the hose (1 <= N <= 100,000) and the length L of the patches (1 <= L <= 1,000). Next appears a line with N integers representing the positions where the holes are located (integers between 1 and 10^9), measured from the beginning of the hose (point 0) and given in increasing order from that beginning.
 
-**Salida**
+**Output**
 
-Para cada caso de prueba se escribirá una lınea con el mınimo numero de parches necesarios para cubrir todos los agujeros.
+For each test case a line will be written with the minimum number of patches needed to cover all the holes.
 
-**Entrada de ejemplo**
+**Input example**
 
     3 2
     1 6 10
@@ -23,11 +23,11 @@ Para cada caso de prueba se escribirá una lınea con el mınimo numero de parch
     8 10
     3 8 8 9 20 45 55 90
 
-**Salida de ejemplo**
+**Output example**
 
     3
     2
     4
     
  
- **Autor del problema:** Alberto Verdejo.
+ **Author:** Alberto Verdejo.
