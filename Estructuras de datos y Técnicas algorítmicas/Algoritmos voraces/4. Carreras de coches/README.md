@@ -1,18 +1,18 @@
-# Carreras de coches
+# Car racing
 
-Daniel tiene una bolsa llena de pilas a medio usar. Esta tarde ha quedado con sus amigos para jugar con sus coches de carreras, de los cuales tiene muchos pero todos sin pilas. Cada coche necesita dos pilas cuyos voltajes deben sumar al menos V voltios.
+Daniel has a bag full of half-used batteries. This afternoon he is meeting his friends to play with his racing cars, of which he has many but all without batteries. Each car needs two batteries whose voltages must add up to at least V volts.
 
-Con el voltımetro de su padre Daniel ha medido el voltaje de cada pila y lo ha apuntado con rotulador sobre ella. Intuye que dependiendo de como vaya colocando las pilas en los coches podra tener mas o menos coches en funcionamiento. Como a  ́el y a sus amigos les gustan las carreras con muchos coches compitiendo a la vez, te pide ayuda para decidir como emparejar las pilas para maximizar el numero de coches que van a poder utilizar simultaneamente.
+With his father's voltmeter Daniel has measured the voltage of each battery and written it with a marker on it. He figures that depending on how he places the batteries in the cars, he can have more or less cars running. Since he and his friends like racing with many cars competing at the same time, he asks for your help in deciding how to pair the batteries to maximize the number of cars they will be able to use simultaneously.
 
-**Entrada**
+**Input**
 
-La entrada comienza con un numero positivo indicando el numero de casos de prueba que vendran a continuacion. Por cada caso de prueba se proporcionaran dos lıneas. La primera lınea contendra dos numeros que indicaran el numero N de pilas (entre 1 y 100.000) y el voltaje V mınimo necesario para hacer funcionar un coche. En la segunda lınea apareceran N numeros con el voltaje de cada pila. El voltımetro utilizado tiene tanta precision que da el voltaje en microvoltios (μV ), por lo que todos los voltajes seran numeros entre 0 y 1.000.000.
+The input starts with a positive number indicating the number of test cases that will follow. For each test case two lines will be provided. The first line will contain two numbers indicating the number N of batteries (between 1 and 100,000) and the minimum voltage V needed to run a car. The second line will contain N numbers indicating the voltage of each battery. The voltmeter used is so accurate that it gives the voltage in microvolts (μV), so all voltages will be numbers between 0 and 1,000,000.
 
-**Salida**
+**Output**
 
-Para cada caso de prueba el programa escribira una lınea con el numero maximo de coches que pueden ponerse en funcionamiento.
+For each test case the program will write a line with the maximum number of cars that can be put into operation.
 
-**Entrada de ejemplo**
+**Input example**
 
     2
     4 20
@@ -20,9 +20,9 @@ Para cada caso de prueba el programa escribira una lınea con el numero maximo d
     5 30
     20 12 7 18 2
 
-**Salida de ejemplo**
+**Output example**
 
     2
     1
 
-**Autor del problema:** Alberto Verdejo.
+**Author:** Alberto Verdejo.
