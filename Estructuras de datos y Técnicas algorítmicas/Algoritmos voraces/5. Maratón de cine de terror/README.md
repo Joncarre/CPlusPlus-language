@@ -1,20 +1,20 @@
-# Maratón de cine de terror
+# Horror movie marathon
 
-La filmoteca ha organizado un maraton de cine de terror. Durante 24 horas se proyectaran pelıculas (todas diferentes) en las diversas salas disponibles.
+The film library has organized a marathon of horror movies. During 24 hours films (all different) will be screened in the various rooms available.
 
-Deborah Cinema, gran aficionada a este genero de pelıculas, ha conseguido la programacion completa donde aparecen todas las pelıculas que se van a proyectar durante el maraton; junto con el tıtulo, nombre del director, sala de proyeccion y otros datos de interes, se indica la hora de comienzo y duracion de la pelıcula.
+Deborah Cinema, a great fan of this genre of movies, has obtained the complete program where all the movies that will be screened during the marathon are listed; along with the title, name of the director, screening room and other information of interest, the start time and duration of the movie is indicated.
 
-¿Puedes ayudar a Deborah a planificar su maraton de cine, teniendo en cuenta que su unico objetivo es ver el maximo numero posible de pelıculas?
+Can you help Deborah plan her movie marathon, keeping in mind that her only goal is to see as many films as possible?
 
-**Entrada**
+**Input**
 
-La entrada consta de una serie de casos de prueba. Cada uno comienza con una lınea con el numero N de pelıculas que se proyectaran (0 < N <= 1.000). A continuacion apareceran N lıneas con la informacion de cada pelıcula: la hora de comienzo dentro del dıa de proyeccion, en el formato HH:MM, y la duracion en minutos de la pelıcula. Ninguna pelıcula acabara mas alla de las 12 de la noche. La entrada terminara con un caso sin pelıculas, que no debe procesarse.
+The input consists of a series of test cases. Each one starts with a line with the number N of movies to be screened (0 < N <= 1,000). Next, N lines will appear with the information for each movie: the start time within the screening day, in the format HH:MM, and the duration in minutes of the movie. No film will end after 12:00 midnight. The entry will end with a case with no films, which should not be processed.
 
-**Salida**
+**Output**
 
-Para cada caso de prueba se escribira una lınea con el maximo numero de pelıculas que puede ver Deborah Cinema, suponiendo que siempre necesita 10 minutos libres (para comprar palomitas, cambiar de sala, etc.) entre pelıcula y pelıcula.
+For each test case a line will be written with the maximum number of movies Deborah Cinema can watch, assuming that she always needs 10 minutes free (to buy popcorn, change the theater, etc.) between movies.
 
-**Entrada de ejemplo**
+**Inout example**
 
     4
     09:30 90
@@ -29,10 +29,10 @@ Para cada caso de prueba se escribira una lınea con el maximo numero de pelıcu
     10:30 90
     12:10 70
 
-**Salida de ejemplo**
+**Output example**
 
     3
     2
     2
 
-**Autor del problema:** Alberto Verdejo.
+**Author:** Alberto Verdejo.
