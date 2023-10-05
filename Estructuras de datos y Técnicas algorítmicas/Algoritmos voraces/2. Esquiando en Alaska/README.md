@@ -1,22 +1,21 @@
-# Esquiando en Alaska
+# Skiing in Alaska
 
-Para celebrar el aniversario de la exitosa y extravagante serie televisiva de los noventa Doctor en Alaska se ha organizado una competicion invernal en el lejano y maravilloso pueblo de Cicely, Alaska, donde participaran sus
-estrafalarios vecinos y el medico neoyorquino, judıo y urbanita, Dr. Joel Fleischman.
+To celebrate the anniversary of the hit and quirky 1990s TV series Doctor in Alaska, a winter competition has been organized in the remote and wonderful town of Cicely, Alaska, featuring its quirky neighbors and the urbane, Jewish, New York physician Dr. Joel Fleischman.
 
-Los productores, cumpliendo con ciertos compromisos publicitarios, han recibido unos esquıs que deben repartir entre los participantes, teniendo en cuenta que se esquıa mejor cuando la longitud de los esquıs es acorde con la altura del
-esquiador.
+The producers, fulfilling certain publicity commitments, have received some skis that they must distribute among the participants, taking into account that skiing is best when the length of the skis is in accordance with the height of the skier.
+skier's height.
 
-En concreto, el responsable de la competicion recomienda minimizar la suma de las diferencias (en valor absoluto) entre la altura de cada esquiador y la longitud de los esquıs que le han sido asignados. Pero los productores no saben como conseguirlo, por lo que te han contratado, poniendo en tus manos el  ́exito del evento.
+Specifically, the competition manager recommends minimizing the sum of the differences (in absolute value) between the height of each skier and the length of the skis assigned to him. But the producers do not know how to achieve this, so they have hired you, putting the success of the event in your hands.
 
-**Entrada**
+**Input**
 
-La entrada consta de una serie de casos de prueba. Para cada caso, primero aparece el numero N de esquiadores y esquıs que hay que emparejar (entre 1 y 100.000). A continuacion aparecen dos lıneas con N enteros cada una, la primera con las alturas de los esquiadores y la segunda con las longitudes de los esquıs (todos numeros entre 1 y 1.000.000). La entrada termina con un caso sin esquiadores.
+The input consists of a series of test cases. For each case, first appears the number N of skiers and skis to be matched (between 1 and 100,000). This is followed by two lines with N integers each, the first with the heights of the skiers and the second with the lengths of the skis (all numbers between 1 and 1,000,000). The entry ends with a case without skiers.
 
-**Salida**
+**Output**
 
-Para cada caso de prueba se escribira una lınea con la mınima suma de diferencias entre cada esquiador y sus esquıs. Se garantiza que el resultado nunca sera mayor que 10^9 .
+For each test case a line will be written with the minimum sum of differences between each skier and his skis. It is guaranteed that the result will never be greater than 10^9.
 
-**Entrada de ejemplo**
+**Input example**
 
     3
     10 15 20
@@ -26,9 +25,9 @@ Para cada caso de prueba se escribira una lınea con la mınima suma de diferenc
     140 150
     0
 
-**Salida de ejemplo**
+**Output example**
 
     6
     85
     
-  **Autor del problema:** Alberto Verdejo.
+  **Author:** Alberto Verdejo.
