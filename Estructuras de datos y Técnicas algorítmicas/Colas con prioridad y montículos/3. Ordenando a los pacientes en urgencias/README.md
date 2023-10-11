@@ -1,22 +1,21 @@
-# Ordenando a los pacientes en urgencias
+# Ordering patients in the emergency department
 
-En el Hospital ACR (Aquı Curamos Rapido) se han puesto a mejorar las Urgencias para que los enfermos que llegan con dolencias mas graves sean atendidos antes que los demas. Para eso, han comprado una UCM (Unidad de Catalogacion Medica) que es capaz de valorar instantaneamente el estado de un paciente con un numero entero entre 0 y 1.000.000, donde 0 indica que su dolencia es menor (quiza incluso inexistente y sea un mero hipocondrıaco) y 1.000.000 indica que el enfermo esta casi caminando hacia la luz.
+In the ACR Hospital (Aquı Curamos Rapido) they have started to improve the Emergency Department so that the patients who arrive with more serious ailments are attended before the others. For that, they have bought a UCM (Medical Cataloguing Unit) that is able to instantly assess the status of a patient with an integer between 0 and 1,000,000, where 0 indicates that his condition is minor (perhaps even nonexistent and is a mere hypochondriac) and 1,000,000 indicates that the patient is almost walking towards the light.
 
-Por desgracia, la afluencia de enfermos es tal que incluso ası es muy complicado saber rapidamente quien deberıa ser el proximo en ser atendido. No hacen mas que entrar pacientes nuevos a la vez que los mas graves son atendidos, y no es facil mantenerlos ordenados. Cuando un medico queda libre, debe ser atendido el enfermo a la espera con una valoracion mas grave. Si hay dos pacientes evaluados con la misma gravedad, debera ser atendido el que mas tiempo lleve esperando.
+Unfortunately, the influx of patients is such that even then it is very difficult to know quickly who should be the next to be seen. New patients keep coming in while the more serious ones are being treated, and it is not easy to keep them in order. When a doctor is free, the waiting patient with a more serious assessment should be seen. If there are two patients assessed to be of equal severity, the one who has been waiting the longest should be seen.
 
-Para ayudar en la tarea de decidir quien es el proximo, desde ACR se ha hecho un llamamiento para buscar ayuda entre los mejores programadores. ¿Eres tu uno de ellos?
+To help in the task of deciding who is next, ACR has put out a call for help among the best programmers. Are you one of them?
 
-**Entrada**
+**Input**
 
-La entrada esta formada por diversos casos de prueba. Cada caso comienza con una lınea indicando el numero n de eventos que ocurriran (como mucho 200.000), y a continuacion aparecen n lıneas cada
-una con un evento. Un evento puede ser la llegada de un paciente nuevo, o la atencion por parte de un medico que ha quedado libre del paciente mas urgente. Los ingresos de pacientes nuevos se indican de la forma I nombre gravedad, donde nombre es una cadena de como mucho 20 caracteres (sin espacios) y gravedad es un numero entre 0 y 1.000.000 con su estado (0 leve, 1.000.000 muy grave). Los eventos en los que se atiende al siguiente paciente se indican con el caracter A. Se garantiza que no habra nunca eventos de tipo A si no quedan pacientes esperando. La entrada termina cuando el numero de eventos es 0.
+The input consists of several test cases. Each case starts with a line indicating the number n of events that will occur (at most 200,000), and then there are n lines each with one event.
+each with an event. An event can be the arrival of a new patient, or the care by a physician of the most urgent patient who has been released. New patient admissions are indicated in the form I name severity, where name is a string of at most 20 characters (no spaces) and severity is a number between 0 and 1,000,000 with its status (0 mild, 1,000,000 very severe). The events in which the next patient is attended are indicated by the character A. It is guaranteed that there will never be events of type A if there are no patients waiting. The entry ends when the number of events is 0.
 
-**Salida**
+**Output**
 
-Para cada evento de tipo A de cada caso de prueba se escribira el nombre del paciente que es atendido en ese momento. Se atiende primero al paciente mas grave y, en caso de igualdad entre dos o mas
-pacientes, se elegira entre ellos al que mas tiempo lleve esperando. Al finalizar el tratamiento de cada caso se escribira una lınea mas con cuatro guiones (----).
+For each type A event of each test case, the name of the patient being attended at that time will be written. The most serious patient is seen first and, in case of equality between two or more patients, the one who has been waiting the longest will be chosen from among them. At the end of the treatment of each case, one more line with four hyphens is written (----).
 
-**Entrada de ejemplo**
+**Input example**
 
     9
     I Alberto 4000
@@ -30,7 +29,7 @@ pacientes, se elegira entre ellos al que mas tiempo lleve esperando. Al finaliza
     A
     0
 
-**Salida de ejemplo**
+**Output example**
 
     Alberto
     Laura
@@ -38,4 +37,4 @@ pacientes, se elegira entre ellos al que mas tiempo lleve esperando. Al finaliza
     Sara
     ----
 
-**Autor del problema:** Alberto Verdejo.
+**Author:** Alberto Verdejo.
