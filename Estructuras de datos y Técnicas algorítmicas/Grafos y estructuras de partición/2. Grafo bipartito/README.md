@@ -1,16 +1,16 @@
 # Grafo bipartito
 
-Un grafo no dirigido es bipartito si sus vertices pueden repartirse en dos conjuntos disjuntos de tal forma que todas las aristas tengan un extremo en cada uno de esos conjuntos. Dicho de otra forma, un grafo es bipartito si sus vertices pueden colorearse utilizando dos colores de tal forma que no exista ninguna arista que conecte dos vertices del mismo color.
+An undirected graph is bipartite if its vertices can be distributed in two disjoint sets in such a way that all edges have an end in each of those sets. In other words, a graph is bipartite if its vertices can be colored using two colors such that there is no edge connecting two vertices of the same color.
 
-**Entrada**
+**Input**
 
-La entrada esta compuesta por diversos casos de prueba. Para cada caso, la primera lınea contiene el numero de vertices del grafo, V (entre 1 y 10.000), y la segunda el numero de aristas, A (entre 0 y 100.000). A continuacion aparecen A lıneas, cada una con dos enteros que representan los extremos de cada una de las aristas (valores entre 0 y V 1). Los grafos no contienen aristas de un vertice a sı mismo ni mas de una arista que conecte un mismo par de vertices.
+The input is composed of several test cases. For each case, the first line contains the number of vertices of the graph, V (between 1 and 10,000), and the second the number of edges, A (between 0 and 100,000). Next appear A lines, each with two integers representing the ends of each of the edges (values between 0 and V 1). The graphs do not contain edges from one vertex to itself nor more than one edge connecting the same pair of vertices.
 
-**Salida**
+**Output**
 
-Para cada caso de prueba se escribira en una lınea independiente la palabra SI si el grafo es bipartito y NO en caso contrario.
+For each test case the word YES will be written in a separate line if the graph is bipartite and NO otherwise.
 
-**Entrada de ejemplo**
+**Input example**
 
     7
     9
@@ -34,9 +34,9 @@ Para cada caso de prueba se escribira en una lınea independiente la palabra SI 
     3 5
     1 5
 
-**Salida de ejemplo**
+**Output example**
 
     SI
     NO
 
-**Autor del problema:** Alberto Verdejo.
+**Author:** Alberto Verdejo.
