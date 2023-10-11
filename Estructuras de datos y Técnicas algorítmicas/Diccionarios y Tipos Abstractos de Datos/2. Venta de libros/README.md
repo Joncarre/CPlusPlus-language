@@ -1,15 +1,15 @@
-# Venta de libros
+# Book sales
 
-Se desea implementar una aplicación para gestionar un sistema de venta de libros por Internet. La implementación hará uso del tipo *Libro* que representa con un string. Las operaciones permitidas son las siguientes:
+We want to implement an application to manage a system for selling books over the Internet. The implementation will make use of the type *Book* that represents with a string. The operations allowed are the following:
 
-- nuevoLibro(x, n): añade n ejemplares de un libro (x) al sistema. Si n toma el valor 0 significa que el libro está en el sistema.
-- comprar(x): un usuario compra un libro (x). Se comprueba que existe el libro y hay ejemplares.
-- estaLibro(x): indica si un libro (x) se ha añadido al sistema.
-- elimLibro(x): elimina el libro (x) del sistema.
-- numEjemplares(x): devuelve el número de ejemplares de un libro (x) que hay disponibles en el sistema.
-- top10(): obtiene una lista con los 10 libros que más se han vendido. *Importante*: en vez de los 10 más vendidos se muestra la lista de todos los vendidos según el número de ventas de cada uno, desde el que más se ha vendido hasta el que menos.
+- newBook(x, n): adds n copies of a book (x) to the system. If n takes the value 0 it means that the book is in the system.
+- buy(x): a user buys a book (x). It is checked that the book exists and that there are copies.
+- thisBook(x): indicates if a book (x) has been added to the system.
+- deleteBook(x): deletes book (x) from the system.
+- numCopies(x): returns the number of copies of a book (x) available in the system.
+- top10(): gets a list of the top 10 best selling books. *Important*: instead of the top 10 best sellers, the list of all the best sellers is displayed according to the number of sales of each one, from the best seller to the least sold.
 
-**Entrada de ejemplo**
+**Input example**
 
     5
     nuevoLibro 20 Heidi
@@ -26,7 +26,7 @@ Se desea implementar una aplicación para gestionar un sistema de venta de libro
     comprar Viaje al centro de la tierra
     top10
 
-**Salida de ejemplo**
+**Output example**
 
     Existen 30 ejemplares del libro Caperucita roja
     ---
