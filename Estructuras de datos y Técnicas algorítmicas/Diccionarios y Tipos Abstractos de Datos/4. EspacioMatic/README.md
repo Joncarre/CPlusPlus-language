@@ -1,13 +1,13 @@
 # EspacioMatic
 
-Eres un prestigioso diseñador de videojuegos, y estás trabajando ahora en uno llamado EspacioMatic , en el que habrá naves espaciales con distintos módulos (motores, cabinas, escudos, láseres, etcétera). Necesitarás implementar, como poco, las siguientes operaciones:
+You are a prestigious videogame designer, and you are now working on a game called EspacioMatic, in which there will be spaceships with different modules (engines, cockpits, shields, lasers, etc.). You will need to implement, at least, the following operations:
 
-- *EspacioMatic*: inicializa el sistema de juego.
+- *espacioMatic*: initialize the game system.
 
-- *equipaNave*: dado el identificador de una nave, un nombre de módulo (una cadena como "motor", "cabina", "láser", etcétera) y un nivel de funcionalidad (un entero >= 1 ), añade el módulo correspondiente a esa nave con el nivel indicado. Si esa nave ya tenía ese módulo, se suma el nuevo nivel al anterior (esto permite reparar módulos de naves). No devuelve nada.
+- *shipEquipaNave*: given a ship identifier, a module name (a string such as "engine", "cockpit", "laser", etc.) and a level of functionality (an integer >= 1 ), add the module corresponding to that ship with the indicated level. If that ship already had that module, the new level is added to the previous one (this allows repairing ship modules). It does not return anything.
 
-- *estropeaNave*: dado el identificador de una nave, y un nombre de módulo, resta 1 al nivel de > 0 ). Devuelve true si el módulo existía y tenía un nivel positivo antes de hacer la resta, ó false si ha sido imposible restar ese módulo en esa nave (asumiendo que tuviese un nivel ya que el módulo no existía o estaba ya a 0.
+- *shipDestroyShip*: given the identifier of a ship, and a module name, subtract 1 to the level of > 0). Returns true if the module existed and had a positive level before doing the subtraction, or false if it was impossible to subtract that module in that ship (assuming it had a level since the module did not exist or was already at 0.
 
-- *navesDefectuosas*: devuelve una lista de identificadores de naves que tienen uno o más módulos completamente estropeados (con un nivel de 0).
+- *shipsDefective*: returns a list of ship identifiers that have one or more modules completely broken (with a level of 0).
 
-- *modulosNave*: dado el identificador de una nave, devuelve una lista con los nombres de los módulos que tiene equipados (tengan el nivel que tengan), ordenada alfabéticamente.
+- *shipModules*: given the identifier of a ship, returns a list with the names of the modules it has equipped (whatever level they have), ordered alphabetically.
