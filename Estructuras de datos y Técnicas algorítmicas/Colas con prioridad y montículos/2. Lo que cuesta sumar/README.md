@@ -1,21 +1,21 @@
-# Lo que cuesta sumar
+# What it costs to add up
 
-Johnny Calculın sabe sumar numeros mentalmente a gran velocidad, pero el esfuerzo que le supone realizar una suma depende del valor de los sumandos. En concreto, sumar a mas b le supone un esfuerzo igual a a + b (independientemente
-de los valores concretos de a y b). Sencillo.
+Johnny Calculın can add numbers mentally at high speed, but the effort required to perform a sum depends on the value of the addends. Specifically, adding a plus b gives him an effort equal to a + b (regardless of the specific values of a and b).
+of the concrete values of a and b). Simple.
 
-Cuando tiene que sumar mas de dos numeros la cosa se complica, ya que el orden en que va realizando las sumas afectan al esfuerzo total empleado. Por ejemplo, si tiene que sumar 1, 2 y 3, puede sumar 1 + 2 con un esfuerzo igual a 3, y despues sumar 3 + 3 con un esfuerzo igual a 6, lo que supone un esfuerzo total igual a 9. En cambio, si suma primero 2 + 3 con un esfuerzo igual a 5 y despu ́es 5 + 1 con un esfuerzo igual a 6, el esfuerzo total asciende a 11. Obviamente el resultado de la suma es siempre 6, por las propiedades conmutativa y asociativa de la suma.
+When you have to add more than two numbers, things get more complicated, since the order in which you do the additions affects the total effort used. For example, if you have to add 1, 2 and 3, you can add 1 + 2 with an effort equal to 3, and then add 3 + 3 with an effort equal to 6, which means a total effort equal to 9. On the other hand, if you first add 2 + 3 with an effort equal to 5 and then 5 + 1 with an effort equal to 6, the total effort amounts to 11. Obviously the result of the addition is always 6, because of the commutative and associative properties of addition.
 
-Johnny se esta preparando para un concurso de sumas y quiere averiguar como deberıa ir sumando los numeros para necesitar el mınimo esfuerzo. ¿Puedes ayudarle?
+Johnny is preparing for an addition contest and wants to find out how he should go about adding the numbers to require the least effort. Can you help him?
 
-**Entrada**
+**Input**
 
-La entrada esta compuesta por diversos casos de prueba, ocupando cada uno de ellos dos lıneas: la primera lınea contiene un entero N (entre 1 y 100.000) que representa el numero de sumandos, y la segunda contiene esos N sumandos, numeros enteros entre 1 y 1.000.000. La entrada termina con un caso donde N es 0 que no debe procesarse.
+The input is composed of several test cases, each of them occupying two lines: the first line contains an integer N (between 1 and 100,000) representing the number of addends, and the second contains those N addends, integers between 1 and 1,000,000. The input ends with a case where N is 0 that should not be processed.
 
-**Salida**
+**Output**
 
-Para cada caso de prueba se debe escribir una lınea con el esfuerzo mınimo necesario para sumar los numeros de la entrada.
+For each test case a line should be written with the minimum effort needed to sum the input numbers.
 
-**Entrada de ejemplo**
+**Input example**
 
     3
     1 2 3
@@ -25,10 +25,10 @@ Para cada caso de prueba se debe escribir una lınea con el esfuerzo mınimo nec
     3 4 5 6
     0
 
-**Salida de ejemplo**
+**Output example**
 
     9
     19
     36
 
-**Autor del problema:** Alberto Verdejo.
+**Author:** Alberto Verdejo.
