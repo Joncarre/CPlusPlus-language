@@ -1,19 +1,19 @@
-# Sistema de faltas
+# Fault system
 
-Cada uno de los profesores de distintas asignaturas de un mismo grupo de alumnos tiene una lista de faltas, es decir, para cada alumno van anotando cuantas veces ha faltado en esa asignatura (0 si no ha faltado nunca). Para gestionar esta información diseñan un tipo abstracto de datos *Faltas* con tres operaciones generadoras:
+Each of the teachers of different subjects of the same group of students has a list of absences, i.e., for each student they write down how many times he/she has missed that subject (0 if he/she has never missed). To manage this information they design an abstract data type *Faults* with three generating operations:
 
-- *anadirAlumno*: que añade un alumno en todas las asignaturas con 0 faltas.
+- *addStudent*: which adds a student in all subjects with 0 absences.
 
-- *anadirFalta*: que incrementa en 1 el número de faltas de un alumno en una asignatura.
+- *addFault*: which increases by 1 the number of faults of a student in a subject.
 
-- *anadirAsignatura*: que construye una lista con los mismos alumnos de las demás asignaturas, cada uno de ellos con 0 faltas.
+- *addSubject*: which builds a list with the same students in all other subjects, each of them with 0 absences.
 
-- *noFaltas*: que por orden alfabético (el dado sobre IdAlumno) devuelve una lista con todos los alumnos que no han faltado a ninguna clase en ninguna de las asignaturas.
+- *noFaults*: which in alphabetical order (the one given on IdStudent) returns a list with all the students who have not missed any class in any of the subjects.
 
-- *totalFaltas*: que dado un alumno, devuelve el número de faltas que acumula entre todas las asignaturas.
+- *totalFaults*: which, given a student, returns the number of faults accumulated among all subjects.
 
-- *maxFaltas*: que devuelve la asignatura donde mayor número de faltas hay entre todos los alumnos; si hay varias con el máximo número de faltas devuelve una cualquiera.
+- *maxFaults*: which returns the subject with the highest number of faults among all the students; if there are several with the maximum number of faults, it returns any one of them.
 
-**Elementos a tener en cuenta**
+**Elements to consider**
 
-A la hora de implementar este TAD han decidido que la lista de faltas de una asignatura viene representada por un diccionario con clave IdAlumno y valor asociado el número de faltas del alumno en esa asignatura; y que todas las listas de faltas se hallan almacenadas en un diccionario con clave IdAsignatura (identificador de la asignatura) y valor asociado la lista de faltas de esa asignatura. El invariante de la representación incluye el hecho de que las listas de todas las asignaturas contienen exactamente los mismos alumnos
+When implementing this TAD they have decided that the list of absences of a subject is represented by a dictionary with key IdStudent and associated value the number of absences of the student in that subject; and that all the lists of absences are stored in a dictionary with key IdSubject (subject identifier) and associated value the list of absences of that subject. The invariant of the representation includes the fact that the lists of all subjects contain exactly the same students.
