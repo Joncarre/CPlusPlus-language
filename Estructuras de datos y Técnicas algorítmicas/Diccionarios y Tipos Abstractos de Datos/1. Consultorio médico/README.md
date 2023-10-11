@@ -1,14 +1,14 @@
-# Consultorio médico
+# Medical office
 
-Se desea implementar un TAD (Tipo de Dato Abstracto) que simule el comportamiento de un consultorio método simplificado. La especificación hará uso de los tipos *Medio* y *Paciente* que se representan con un string, y *Fecha* que es una clase con tres datos: dia, hora y minuto. Las operaciones del consultorio son las siguientes:
+It is desired to implement a TAD (Abstract Data Type) that simulates the behavior of a simplified method office. The specification will make use of the types *Medium* and *Patient* which are represented by a string, and *Date* which is a class with three data: day, hour and minute. The operations of the office are the following:
 
-- nuevoMedico(m): da de alta un nuevo médico. Si el nuevo médico ya existía, no se notifica.
-- pideConsulta(p, m, f): un paciente (p) pide consulta a un médico (m) para una fecha (f). Se comprobará que existe el paciente y el médico y que el médico tiene disponible la fecha para atender al paciente.
-- siguientePaciente(m): el médico (m) consulta al paciente al que le toque en ese momento, que será el que tenga la fehca menor.
-- atiendePaciente(m): elimina el siguiente paciente de un médico (m).
-- listaPacientes(m, f): devuelve una lista de pacientes de un cierto médico (m) que tienen cita el día (f).
+- newDoctor(m): discharges a new doctor. If the new doctor already existed, it is not reported.
+- requestConsult(p, m, f): a patient (p) requests a consultation with a physician (m) for a date (f). It will be verified that the patient and the physician exist and that the physician has the date available to see the patient.
+- nextPatient(m): the physician (m) consults the patient whose turn it is at that moment, who will be the one with the lowest faithhca.
+- attendPatient(m): eliminates the next patient of a physician (m).
+- listPatients(m, f): returns a list of patients of a certain doctor (m) who have an appointment on (f).
 
-**Ejemplo de entrada**
+**Input example**
 
     12
     nuevoMedico Hernandez
@@ -31,7 +31,7 @@ Se desea implementar un TAD (Tipo de Dato Abstracto) que simule el comportamient
     listaPacientes Hernandez 17
     atiendeConsulta Hernandez
 
-**Ejemplo de salida**
+**Output example**
 
     Doctor Alvarez dia 16
     Antonio 12:10
