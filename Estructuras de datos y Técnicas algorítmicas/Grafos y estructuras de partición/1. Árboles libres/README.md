@@ -1,20 +1,16 @@
 # Árboles libres
 
-Se dice que un grafo no dirigido es un arbol libre si es acıclico y conexo (o dicho de otra manera, todo par de vertices esta conectado por exactamente un camino).
+An undirected graph is said to be a free tree if it is acyclic and connected (or put another way, every pair of vertices is connected by exactly one path).
 
-**Entrada**
+**Input**
 
-La entrada esta compuesta por diversos casos de prueba. Para cada caso, la primera lınea contiene
-el numero de vertices del grafo, V (entre 1 y 10.000), y la segunda el numero de aristas, A (entre 0
-y 100.000). A continuacion aparecen A lıneas, cada una con dos enteros que representan los extremos
-de cada una de las aristas (valores entre 0 y V 1). Los grafos no contienen aristas de un vertice a sı
-mismo ni mas de una arista que conecte un mismo par de vertices.
+The input is composed of several test cases. For each case, the first line contains the number of vertices of the graph, V (between 1 and 10,000), and the second the number of edges, A (between 0 and 100,000). Next, A lines appear, each with two integers representing the ends of each of the edges (values between 0 and V 1). The graphs do not contain edges from one vertex to itself and no more than one edge than one or more than one edge connecting the same pair of vertices.
 
-**Salida**
+**Output**
 
-Para cada caso de prueba se escribira SI si el grafo es arbol libre y NO en caso contrario.
+For each test case we will write YES if the network is a free tree and NO otherwise.
 
-**Entrada de ejemplo**
+**Input example**
 
     6
     5
@@ -31,9 +27,9 @@ Para cada caso de prueba se escribira SI si el grafo es arbol libre y NO en caso
     3 0
     4 5
 
-**Salida de ejemplo**
+**Output example**
 
     SI
     NO
 
-**Autor del problema:** Alberto Verdejo.
+**Author:** Alberto Verdejo.
