@@ -25,4 +25,4 @@ For each tree, YES will be written if it is a minimum stack and NO otherwise.
     NO
     NO
 
-**Autor del problema:** Alberto Verdejo.
+**Author:** Alberto Verdejo.
