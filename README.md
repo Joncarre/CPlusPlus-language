@@ -1,9 +1,7 @@
 # C++
 
-Welcome,
+Bienvenido,
 
-Here you can find all the projects I have done using the C++ programming language. Originally, the statements of these problems and projects were in Spanish, but I have tried to translate them into English. Unfortunately, the comments in the code as well as variable names are still in Spanish.
+Aquí puedes encontrar todos los proyectos que he realizado utilizando el lenguaje de programación C++. Si tienes alguna pregunta o sugerencia, no dude en ponerse en contacto conmigo.
 
-If you have any questions or suggestions please do not hesitate to contact me.
-
-Best regards!
+Saludos!
